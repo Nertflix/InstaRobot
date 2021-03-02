@@ -74,7 +74,7 @@ $bot_username = $bot_username['result']['username'];
 
 if($typ == 'private'){
   if($text == '/start'){
-    botaction("sendMessage",['chat_id'=>$cid,'text'=>"<b>Hi $fname, Well I Am Instagram Photo Video And Reels Downloader..Just Send Me Any Instagram Post OR Reel Link..Thats It I Will See The Reset\n\nBot Made By : @NoobsGang</b>",'parse_mode'=>'HTML','reply_to_message_id'=>$mid]);
+    botaction("sendMessage",['chat_id'=>$cid,'text'=>"<b>Hi $fname, Well I Am Instagram Photo Video And Reels Downloader..Just Send Me Any Instagram Post OR Reel Link..Thats It I Will See The Reset\n\nBot Made By : @FlixBots</b>",'parse_mode'=>'HTML','reply_to_message_id'=>$mid]);
   }
   elseif ($text[0] == '@') {
     $usernamee = rawurlencode(explode('@',$texts)[1]);
